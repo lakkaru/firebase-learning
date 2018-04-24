@@ -1,0 +1,22 @@
+[debug] [2018-04-24T11:58:49.959Z] ----------------------------------------------------------------------
+[debug] [2018-04-24T11:58:49.962Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lakshman\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-24T11:58:49.962Z] CLI Version:   3.18.4
+[debug] [2018-04-24T11:58:49.962Z] Platform:      win32
+[debug] [2018-04-24T11:58:49.963Z] Node Version:  v8.9.4
+[debug] [2018-04-24T11:58:49.963Z] Time:          Tue Apr 24 2018 17:28:49 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-04-24T11:58:49.963Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-24T11:58:49.977Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-24T11:58:49.977Z] > authorizing via signed-in user
+[debug] [2018-04-24T11:58:49.980Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-24T11:58:49.980Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/7127QHMSHyWfK_fVMl5BMwc0aZmMg7TWuesmD1HwX5o',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Apr 24 2018 17:28:49 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-04-24T11:58:50.428Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-24T11:58:50.439Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-learning-d8d06  
+  
+ Tue Apr 24 2018 17:28:50 GMT+0530 (Sri Lanka Standard Time)
